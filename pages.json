@@ -1,0 +1,89 @@
+{
+	"easycom": {
+			"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "钱包"
+			}
+		},
+		{
+			"path":"pages/wallet/with_drawal",
+			"style": {
+				"navigationBarTitleText": "提现"
+			}
+		},
+		{
+			"path":"pages/wallet/recharge",
+			"style": {
+				"navigationBarTitleText": "充值"
+			}
+		},
+		{
+			"path":"pages/wallet/wallet_detail",
+			"style": {
+				"navigationBarTitleText": "钱包明细"
+			}
+		},
+		{
+			"path":"pages/bank/bank_list",
+			"style": {
+				"navigationBarTitleText": "银行卡"
+			}
+		},
+		{
+			"path":"pages/bank/bank_detail",
+			"style": {
+				"navigationBarTitleText": "银行卡详情"
+			}
+		},
+		{
+			"path":"pages/bank/add_bank",
+			"style": {
+				"navigationBarTitleText": "添加银行卡"
+			}
+		},
+		{
+			"path":"pages/bank/bank_type_list",
+			"style": {
+				"navigationBarTitleText": "银行列表"
+			}
+		}
+        ,{
+            "path" : "pages/identity/identityIndex",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "实名认证",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/infoDisplay/infoDisplay",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/bank/setPassword",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "设置密码",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {"titleNView": false} 
+	}
+}
